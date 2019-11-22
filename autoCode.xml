@@ -43,7 +43,7 @@
     <templates>
         <template id="mybatisPlusDomain" name="mybatisPlusDomain类"
                   destFile="/${config.artifactId}-entity/src/main/java/${PubUtils.packageToPath(config.basePackage)}/entity/${PubUtils.packageToPath(config.category)}/${tableDefine.id}.java"
-                  templateFile="templates/enity/mybatisPlusEntity.gsp" engine="groovy">
+                  templateFile="templates/entity/mybatisPlusEntity.gsp" engine="groovy">
             <acceptDataModel>tableModel</acceptDataModel>
         </template>
 
